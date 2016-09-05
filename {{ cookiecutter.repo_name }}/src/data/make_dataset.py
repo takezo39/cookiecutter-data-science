@@ -3,6 +3,7 @@ from dotenv import find_dotenv, load_dotenv
 from {{cookiecutter.repo_name}} import base_dir
 from {{cookiecutter.repo_name}}.data import logger
 
+
 def main():
     logger.info('making final data set from raw data')
 
@@ -24,4 +25,3 @@ if __name__ == '__main__':
     load_dotenv(find_dotenv())
 
     main()
-

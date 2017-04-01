@@ -12,4 +12,4 @@ Go to [original project homepage](http://drivendata.github.io/cookiecutter-data-
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/felipeam86/cookiecutter-data-science
+    cookiecutter https://github.com/takezo39/cookiecutter-data-science

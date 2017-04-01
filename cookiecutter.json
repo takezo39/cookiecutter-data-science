@@ -1,10 +1,11 @@
 {
-    "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name|replace(' ', '_') }}",
+    "project_name": "project name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "repo_name": "{{ cookiecutter.project_name|replace(' ', '-') }}",
     "author_name": "Your name",
     "email": "Your email",
     "company": "Your organization/company/team)",
     "description": "A short description of the project.",
-    "year": "2016",
+    "year": "2017",
     "open_source_license": ["Not open source", "MIT", "BSD"]
 }

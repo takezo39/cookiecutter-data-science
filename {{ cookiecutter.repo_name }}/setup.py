@@ -16,13 +16,13 @@ here = path.abspath(path.dirname(__file__))
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-packages = ['{{cookiecutter.repo_name}}', '{{cookiecutter.repo_name}}.data',
-            '{{cookiecutter.repo_name}}.visualization']
+packages = ['{{cookiecutter.project_name}}', '{{cookiecutter.project_name}}.data',
+            '{{cookiecutter.project_name}}.visualization']
 
 tests = [p + '.tests' for p in packages]
 
 setup(
-    name='{{cookiecutter.repo_name}}',
+    name='{{cookiecutter.project_name}}',
     version=dataexplorer.__version__,
     description="{{cookiecutter.description}}",
     author="{{cookiecutter.author_name}}",

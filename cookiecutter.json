@@ -1,6 +1,5 @@
 {
-    "project_name": "project name",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_name": "project_name",
     "repo_name": "{{ cookiecutter.project_name|replace(' ', '-') }}",
     "author_name": "Your name",
     "email": "Your email",
